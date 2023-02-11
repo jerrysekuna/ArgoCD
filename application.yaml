@@ -12,7 +12,7 @@ spec:
     path: main
   destination: 
     server: https://kubernetes.default.svc
-    namespace: springapp
+    namespace: argocd
 
   syncPolicy:
     syncOptions:
